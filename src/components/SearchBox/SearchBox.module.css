@@ -2,7 +2,4 @@
   display: block;
   width: 100%;
   max-width: 350px;
-  padding: 10px 15px;
-  border: 1px solid var(--black);
-  border-radius: 4px;
 }

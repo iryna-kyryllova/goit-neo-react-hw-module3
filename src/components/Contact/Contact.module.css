@@ -20,15 +20,3 @@
   align-items: center;
   gap: 7px;
 }
-
-.btn {
-  padding: 7px;
-  border: 1px solid var(--black);
-  border-radius: 4px;
-  background-color: transparent;
-  transition: background-color 0.3s ease;
-
-  &:hover {
-    background-color: rgba(0, 0, 0, 0.15);
-  }
-}

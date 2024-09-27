@@ -15,9 +15,7 @@ const Contact = ({ data }) => {
           {data.number}
         </li>
       </ul>
-      <button type='button' className={styles.btn}>
-        Delete
-      </button>
+      <button type='button'>Delete</button>
     </li>
   )
 }

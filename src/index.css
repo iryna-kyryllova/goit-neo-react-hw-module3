@@ -82,8 +82,23 @@ button {
   appearance: none;
 }
 
+input {
+  padding: 10px 15px;
+  border: 1px solid var(--black);
+  border-radius: 4px;
+}
+
 button {
+  padding: 7px;
+  border: 1px solid var(--black);
+  border-radius: 4px;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
   cursor: pointer;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+  }
 }
 
 .sr-only {
